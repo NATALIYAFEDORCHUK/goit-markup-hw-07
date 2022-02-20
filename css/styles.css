@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --heder-mailto-color: #2196F3;
     --heder-tel-color: #757575;
     --heder-link-mailto: #212121;
@@ -6,7 +6,7 @@
     --footer-contact:rgba(255, 255, 255, 0.6);
     --logo-dark: #000000;
     --btn: #188CE8
-}
+} 
 p, h1, h2, h3{
     margin: 0;
 }
@@ -43,11 +43,11 @@ img{
     max-width: 1600px;
     margin: 0 auto;
     
-}
+}  */
 
 /*HEADER*/
 
-  .header{
+   /* .header{
     border-bottom: 1px solid #ECECEC;  
   }
   
@@ -102,7 +102,6 @@ img{
 }
 
 
-
 .site-nav__link {
  padding: 32px 0;
   font-weight: 500;
@@ -113,12 +112,13 @@ img{
   display: block; 
   transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
- 
-} 
-.site-nav__link:hover,
+}
+
+.site-nav__link:hover, 
 .site-nav__link:focus{
     color: var(--heder-mailto-color);
-}  
+} 
+ 
 .site-nav__list .current{
     color: #2196F3;
     position: relative;
@@ -160,28 +160,16 @@ img{
 } 
 
 
-.header__link__icon-m{
+.header__icon{
 fill: currentColor;
 margin-right: 10px;
-} 
-
- .header__link__icon-t{
-   fill: currentColor; 
-   margin-right: 10px;
-} 
-
-
-
-
-
-
-
-
+}  
+ */
 
 
 
 /*main*/
-.hero{
+  /* .hero{
 background: #2F303A;
 
 padding-top: 200px;
@@ -242,13 +230,13 @@ transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  .hero__btn:focus{
     background: #188CE8;
 
- }
- 
+ } 
+  */
    
     /*Особенности работы*/
 
   
-   .visually-hidden {
+    /* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -284,7 +272,7 @@ margin-bottom: 30px;
 .features__item+.features__item{
     margin-left: 30px;
 }
-    .features__title{
+.features__title{
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -298,11 +286,11 @@ margin-bottom: 10px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--heder-tel-color);
-}
+}  */
 
 
 /*Чем мы занимаемся*/
-.work{
+ /* .work{
     padding-top: 0;
 }
 .work__list{
@@ -348,11 +336,11 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF;
 
-}
+}  */
 
 
 /*Наша команда*/
-.about{
+/* .about{
     
     background-color: #F5F4FA;
     }
@@ -432,7 +420,7 @@ color: var(--heder-tel-color);
 }
 /*Постоянные клиенты*/
 
-.client__title{
+/* .client__title{
    font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
@@ -478,26 +466,23 @@ border-color: var(--heder-mailto-color);
 }
 .client__item:last-child{
     margin-right: 0;
-}
-  
+} */
+   */
 
 
 /*PORTFOLIO*/
-.heder-portfolio{
-    color: #FFFFFF;
-}
-.list-portfolio{
+
+.portfolio__list{
     margin-bottom: 50px;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 
- .list-btn:last-child { 
+ .portfolio__btn:last-child { 
      border: none;
  }
    
- .list-btn{
+ .portfolio__btn{
     font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
@@ -505,76 +490,80 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #212121; 
 padding: 6px 22px;
-transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
- }
-.list-btn:hover,
-.list-btn:focus{
-    color: var(--section-h);
-}
-.list-btn{
 background: #F5F4FA;
 border-radius: 4px;
+cursor: pointer;
 transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
 color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.list-btn:hover,
-.list-btn:focus{
+ }
+.portfolio__btn:hover,
+.portfolio__btn:focus{
     background-color: var(--heder-mailto-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     color: var(--section-h);
 }
-.list-btn{
-    cursor: pointer;
-}
+/* .portfolio__btn{
+background: #F5F4FA;
+border-radius: 4px;
+cursor: pointer;
+transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+/* .portfolio__btn:hover,
+.portfolio__btn:focus{
+    background-color: var(--heder-mailto-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: var(--section-h);
+} */
 
-.portfolio-item{
+
+.portfolio__item{
     margin-right: 8px;
 }
-.portfolio-item:last-child{
+.portfolio__item:last-child{
     margin-right: 0;
 } 
-.foto-title{
+.foto-card{
  background: #FFFFFF;
 border: 1px solid #EEEEEE;
 box-sizing: border-box;
 } 
-.foto-link{
+.foto__link{
     display: block;
     transition:box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.foto-link:hover,
-.foto-link:focus{
+.foto__link:hover,
+.foto__link:focus{
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }   
 
 /*foto-list*/
 
-.foto-list{
+.foto__list{
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
     margin-top: -30px;
 }
-.foto-list>.item-img{
+.foto__list>.foto__item{
       flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-top: 30px;
 }
 
-
-.item-img{
+.foto__item{
     background: #FFFFFF;
 box-sizing: border-box;
 position: relative;
 }
-.foto-link:hover .foto-top-text,
-.foto-link:hover .foto-top-text
-{
-       transform: translateY(0);
- 
-}
-.foto-top-text{
+.foto-wrap{
+    position: relative;
+    overflow: hidden;
+} 
+
+.foto-wrap__text{
     display: inline-block;
     content: "";
     position: absolute;
@@ -591,25 +580,36 @@ width: 100%;
  transform: translateY(100%);
 transition: transform 250ms  cubic-bezier(0.4, 0, 0.2, 1);
 }
-.foto-wrap{
-    position: relative;
-    overflow: hidden;
-} 
+.foto__link:hover .foto-wrap__text,
+.foto__link:hover .foto-wrap__text
+{
+       transform: translateY(0);
+}
 
-.foto-title{
+
+
+.foto-card{
+    box-sizing: border-box;
     padding: 20px 24px 20px 24px;
     background: #FFFFFF;
 border: 1px solid #EEEEEE;
  
 }
+/* .foto-card{
+ background: #FFFFFF;
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+} */
 
-.list-title{
+
+
+.foto-card__title{
 font-size: 18px;
 line-height: 2.00;
 letter-spacing: 0.06em;
 color: var(--heder-link-mailto);
 }
-.list-text{
+.foto-card__text{
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
@@ -618,7 +618,7 @@ color: var(--heder-tel-color);
 
 
 /*footer*/
-.footer{
+/* .footer{
     background: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -826,7 +826,7 @@ padding-left: 29px;
 .subscription__icon{
     margin-left: 10px;
 }
-
+ */
 
 
 
@@ -906,8 +906,8 @@ outline: none;
 
 .modal__input:hover,
 .modal__input:focus,
-.coment-input:hover,
-.coment-input:focus
+.coment__input:hover,
+.coment__input:focus
 {
     border-color: var(--heder-mailto-color);
 }
@@ -921,7 +921,7 @@ outline: none;
 fill: var(--heder-mailto-color);
 }
 
-.coment-input{
+.comment__input{
     width: 100%;
     height: 120px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -931,7 +931,7 @@ resize: none;
 padding: 12px 16px;
  outline: none; 
 }
-.coment-input::placeholder{
+.comment__input::placeholder{
     position: absolute;
     font-size: 12px;
 line-height: calc(14 / 12);
@@ -940,10 +940,10 @@ color: rgba(117, 117, 117, 0.5);
 
 }
 
-.container-svg{
+.container__svg{
     position: relative; 
 }
-.form-field{
+.form__field{
     margin-bottom: 28px; 
 }
 .name-icon, .tel-icon, .email-icon{
@@ -964,7 +964,7 @@ color: rgba(117, 117, 117, 0.5);
 margin-top: 20px;
 margin-bottom: 30px;
  }
-.modal-chek-text{
+.check__text{
     font-size: 14px;
     height: 16px;
     font-size: 14px;
@@ -975,7 +975,7 @@ display: flex;
 align-items: center;
     
 }
-.modal-chek-text span{
+.check__text span{
     width: 16px;
     height: 15px;
     border: 2px solid #212121;
@@ -986,12 +986,12 @@ align-items: center;
     justify-content: center;
 }
 
-.modal-chek:checked +.modal-chek-text>.chek-icon {
+.modal__chek:checked +.check__text>.check__icon {
     background-color: var(--heder-mailto-color);
     border: 2px solid var(--heder-mailto-color);
 } 
 
-.modal-chek-link{
+.check__link{
     margin-left: 2px;
     font-size: 14px;
     line-height: 1.71;
@@ -1000,7 +1000,7 @@ align-items: center;
 }
 
 
-.button-modal-wrap{
+.btn__send{
     font-weight: 700;
     font-size: 16px;
     line-height: calc(30 / 16);
@@ -1020,8 +1020,8 @@ align-items: center;
     border-color: var(--heder-mailto-color); 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
-.button-modal-wrap:hover,
-.button-modal-wrap:focus{
+.btn__send:hover,
+.btn__send:focus{
     background: #188CE8;
 } 
 
