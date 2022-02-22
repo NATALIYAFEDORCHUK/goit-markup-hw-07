@@ -472,7 +472,7 @@ border-color: var(--heder-mailto-color);
 
 /*PORTFOLIO*/
 
-.portfolio__list{
+/* .portfolio__list{
     margin-bottom: 50px;
     display: flex;
     justify-content: center;  
@@ -906,8 +906,8 @@ outline: none;
 
 .modal__input:hover,
 .modal__input:focus,
-.coment__input:hover,
-.coment__input:focus
+.comment__input:hover,
+.comment__input:focus
 {
     border-color: var(--heder-mailto-color);
 }
@@ -986,7 +986,7 @@ align-items: center;
     justify-content: center;
 }
 
-.modal__chek:checked +.check__text>.check__icon {
+.modal__check:checked +.check__text>.check__icon {
     background-color: var(--heder-mailto-color);
     border: 2px solid var(--heder-mailto-color);
 } 
@@ -1024,4 +1024,4 @@ align-items: center;
 .btn__send:focus{
     background: #188CE8;
 } 
-
+  */

@@ -6,8 +6,10 @@
 justify-content:center;
  position: relative; 
 }
-.work__item+.work__item{
+.work__item {
+    &+&{
     margin-left: 30px;
+}
 }
 .work__title{
 font-weight: 700;
@@ -26,9 +28,8 @@ margin-bottom: 50px;
 }
  
 .thumb{
-     display:flex;
+     @include site-nav;
     justify-content: center;
-    align-items: center;
     width: 370px;
     height: 70px;
     background-color: rgba(47, 48, 58, 0.8);
