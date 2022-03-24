@@ -1,4 +1,10 @@
 
+ .client{
+    display: flex;
+    justify-content: center;
+   
+}
+ 
  .client__title{
     font-weight: 700;
  font-size: 36px;
@@ -9,11 +15,7 @@
  margin-bottom: 50px;
  } 
  
- .client{
-     display: flex;
-     justify-content: center;
-    
- }
+ 
  .client__link{
      display: flex;
      justify-content: center;
